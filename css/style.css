@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+/*
+font-size: 62.5%;
+By default, browsers set 1rem = 16px
+Setting the root font-size to 62.5% makes 1rem = 10px (because 16px × 62.5% = 10px)
+This makes rem calculations much simpler:
+
+1.6rem = 16px
+2rem = 20px
+3rem = 30px
+And so on... 
+ */
+
+html {
+    font-size: 62.5%; /* makes 1rem = 10px for easier calculation. Simply multiply your rem unit by 10 to get the px unit*/
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color)
+}
+
+#menu-icon {
+    font-size: 3.5rem;
+    color: var(--text-color);
+    display: none;
+}
