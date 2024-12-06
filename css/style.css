@@ -32,7 +32,6 @@ And so on...
 
 html {
     font-size: 62.5%; /* makes 1rem = 10px for easier calculation. Simply multiply your rem unit by 10 to get the px unit*/
-    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
 body {
@@ -40,6 +39,8 @@ body {
     color: var(--text-color);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
 section {
@@ -97,6 +98,7 @@ header {
 .home-img img {
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
+    border-radius: 50%;
 }
 
 @keyframes floatImage {
@@ -134,7 +136,7 @@ span {
 
 .home-content p {
     font-size: 1.6rem;
-
+    /* text-align: justify; */
 }
 
 .social-media a {
@@ -214,7 +216,12 @@ var(--main-color) - Shadow color
 
 .about-content p {
     font-size: 1.6rem;
-    margin: 2rem 0 3rem; /* top: 2rem, left and right: 0, bottom: 3rem */  
+    margin: 0 0 3rem; /* top: 2rem, left and right: 0, bottom: 3rem */  
+}
+
+.about-content .bullet-points {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
 }
 
 /* Services section */
