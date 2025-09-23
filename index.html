@@ -4,325 +4,577 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio of Web Projects | Anthony Nebenmor | Full-Stack Developer</title>
+    <title>Portfolio | Anthony Nebenmor | Full-Stack Developer</title>
 
     <!-- box icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <!-- custom css style -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-
   <body>
     <!-- header design -->
     <header>
-      <!-- <a href="#" class="logo">Portfolio</a> -->
-
-       <a href="#" class="logo">
-        <img src="./images/logo.jpeg" alt="">
-      </a>
-
-      <i class='bx bx-menu' id="menu-icon"></i>
-
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#services">Services</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
-
     <!-- home section design -->
-    <section class="home" id="home" >
+    <section class="home" id="home">
       <div class="home-content">
-        <h3>Hello, It's Me</h3>
-        <!-- <h1>John Kendric</h1> -->
-         <h1>Anthony Nebenmor</h1>
-        <h3>And I'm a <span class="multiple-text" ></span></h3>
+        <h3>Hello, I'm</h3>
+        <h1>Anthony Nebenmor</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
         <p>
-          "Full-Stack Developer specializing in React.js, Node.js, and scalable web applications. Proven track record of improving system performance by 30% and delivering high-quality solutions that drive business growth. Passionate about clean code and collaborative problem-solving."
+          Full-Stack Developer specializing in React.js, Node.js, and scalable
+          web applications. Proven track record of improving system performance
+          by 30% and delivering high-quality solutions that drive business
+          growth. Passionate about clean code and collaborative problem-solving.
         </p>
 
-          <!-- Social Media Links -->
-        <div class="social-media">
-          <!-- <a href="#"><i class='bx bxl-facebook' ></i></a> -->
-          <!-- <a href="#"><i class='bx bxl-instagram-alt' ></i></a> -->
-          <a href="https://github.com/Nebenmor" target="_blank"><i class='bx bxl-github'></i></a>
-          <a href="https://www.linkedin.com/in/anthony-nebenmor/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-          <a href="https://www.twitter.com/AnthonyNebenmor" target="_blank"><i class='bx bxl-twitter' ></i></a>
+        <div class="stats-container">
+          <div class="stat-item">
+            <div class="stat-number">9+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">2+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">30%</div>
+            <div class="stat-label">Performance Improvement</div>
+          </div>
         </div>
-        <a href="./docs/Anthony Nebenmor - Full-Stack Developer Resume.pdf" class="btn" download>Download CV</a>
 
+        <div class="social-media">
+          <a href="https://github.com/Nebenmor" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/anthony-nebenmor/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.twitter.com/AnthonyNebenmor" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
+
+        <a href="./docs/Anthony Nebenmor - Full-Stack Developer Resume.pdf" class="btn" download
+          >Download CV</a
+        >
+        <a href="#contact" class="btn btn-secondary">Hire Me</a>
       </div>
-      
 
       <div class="home-img">
-        <img src="images/Profile1.jpeg" alt="Home Image">
-         <!-- <img src="./images/nn.png" alt=""> -->
+        <img src="images/Profile1.jpeg" alt="Anthony Nebenmor" />
       </div>
-
     </section>
 
     <!-- about section design -->
-     <section class="about" id="about">
-      <div class="about-img" style="padding-right: 5rem;" >
-        <img src="./images/profile2.jpeg" alt="About Me" style="border-radius: 4rem;" >
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images/profile2.jpeg" alt="About Me" />
       </div>
 
-      <div class="about-content" >
-        <h2 class="heading">About <span>Me</span> </h2>
-        <h3>Full-stack Developer</h3>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full-Stack Developer</h3>
         <p>
-          "I'm a passionate Full-Stack developer with a keen eye for creating intuitive, beautiful digital experiences. Bridging the gap between design aesthetics and functional code is my ultimate passion".
+          I'm a passionate Full-Stack Developer with extensive experience
+          designing, developing, and deploying scalable web applications. I
+          bridge the gap between innovative frontend experiences and robust
+          backend infrastructure, delivering solutions that drive business
+          growth.
         </p>
-          
-          <h2>Technical Expertise</h2>
-          <ul class="bullet-points">
-            <li>Programming Languages:
-JavaScript (ES6+), TypeScript, HTML5, CSS3</li>
-            <li>Frontend Development:
-React.js, Next.js, Tailwind CSS, Responsive Design, CSS3 Animations, Mobile-First Development </li>
-            <li>Backend Development:
-Node.js, Express.js, RESTful APIs, JWT Authentication, Webhook Architecture</li>
-            <li>Databases:
-MySQL, MongoDB, Database Design & Optimization, Schema Design, Indexing</li>
-<li>Development Tools & Workflow:
-Git, npm, Webpack, VS Code, Figma, CI/CD (Vercel, GitHub Actions)</li>
-<li>Testing:
-Jest, Supertest, Unit Testing, Integration Testing, E2E Testing</li>
-<li>Core Expertise:
-React Hooks, Component Architecture, Performance Optimization, Cross-Browser Compatibility</li>
-          </ul>
 
-          <h2>Key Strengths</h2>
-          <ul class="bullet-points">
-            <li>🖥️ FrontEnd development</li>
-            <li>🖥️ Full-Stack development</li>
-            <li>🎨 Responsive and adaptive design</li>
-            <li>💡 Problem-solving and innovation</li>
-            <li>🤝 Collaborative team player</li>
-          </ul>
-
-          <h2>My Approach</h2>
-          <p>
-            I believe in writing clean, maintainable code and creating intuitive user experiences. Every project is an opportunity to learn, grow, and push technological boundaries.
-          </p>
-
-          <h2>Open Source & Community</h2>
-          <p>
-            Passionate about knowledge sharing and continuous learning. Active contributor to open-source projects and technical blogs.
-          </p>
-
-
-
-        <a href="#" class="btn">About</a>
+        <div class="experience-timeline">
+          <h2>Professional Journey</h2>
+          <div class="timeline-item">
+            <div class="timeline-date">March 2025 - August 2025</div>
+            <div class="timeline-title">Full-Stack Developer</div>
+            <div class="timeline-company">Xcelsz (Contract)</div>
+            <div class="timeline-description">
+              Built end-to-end web solutions using React, TypeScript,
+              Express.js, MySQL, and REST APIs in collaborative engineering
+              environments with CI/CD workflows.
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">November 2024 - December 2024</div>
+            <div class="timeline-title">Frontend Web Developer</div>
+            <div class="timeline-company">Prodigy InfoTech</div>
+            <div class="timeline-description">
+              Developed responsive user interfaces reducing development time by
+              30% through reusable React components and seamless API
+              integrations.
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">June 2023 - November 2024</div>
+            <div class="timeline-title">Software Engineer</div>
+            <div class="timeline-company">Holberton School (ALX)</div>
+            <div class="timeline-description">
+              Designed comprehensive system monitoring and performance
+              optimization solutions while implementing modern React practices
+              and backend infrastructure.
+            </div>
+          </div>
+        </div>
       </div>
-     </section>
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+      <h2 class="heading">Technical <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h4>Programming Languages</h4>
+          <p>JavaScript (ES6+), TypeScript, HTML5, CSS3</p>
+        </div>
+        <div class="skill-category">
+          <h4>Frontend Development</h4>
+          <p>
+            React.js, Next.js, Tailwind CSS, Responsive Design, CSS3 Animations,
+            Mobile-First Development
+          </p>
+        </div>
+        <div class="skill-category">
+          <h4>Backend Development</h4>
+          <p>
+            Node.js, Express.js, RESTful APIs, JWT Authentication, Webhook
+            Architecture
+          </p>
+        </div>
+        <div class="skill-category">
+          <h4>Databases</h4>
+          <p>
+            MySQL, MongoDB, Database Design & Optimization, Schema Design,
+            Indexing
+          </p>
+        </div>
+        <div class="skill-category">
+          <h4>Development Tools & Workflow</h4>
+          <p>
+            Git, npm, Webpack, VS Code, Figma, CI/CD (Vercel, GitHub Actions)
+          </p>
+        </div>
+        <div class="skill-category">
+          <h4>Testing</h4>
+          <p>Jest, Supertest, Unit Testing, Integration Testing, E2E Testing</p>
+        </div>
+        <div class="skill-category">
+          <h4>Core Expertise</h4>
+          <p>
+            React Hooks, Component Architecture, Performance Optimization,
+            Cross-Browser Compatibility
+          </p>
+        </div>
+      </div>
+    </section>
 
     <!-- services section design -->
-     <section class="services" id="services">
-      <p class="heading">My <span> Services</span></h2>
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
 
       <div class="services-container">
-        <!-- Box-1 -->
         <div class="services-box">
-          <i class='bx bx-code-alt'></i>
+          <i class="bx bx-code-alt"></i>
           <h3>Frontend Development</h3>
           <p>
-            "Specialist in crafting dynamic, responsive, and high-performance web applications that transform digital concepts into engaging user experiences. My approach combines technical expertise with strategic design to deliver solutions that not only meet but exceed modern web standards".
+            Crafting dynamic, responsive, and high-performance web applications
+            using React.js, TypeScript, and modern CSS frameworks. Specializing
+            in creating engaging user experiences that exceed modern web
+            standards.
           </p>
-          <a href="#" class="btn">Read More</a>
+          <a href="#contact" class="btn">Get Started</a>
         </div>
 
-
-        <!-- Box-2 -->
         <div class="services-box">
-          <i class='bx bx-code-curly'></i>
-          <h3>Fullstack Development</h3>
+          <i class="bx bx-server"></i>
+          <h3>Backend Development</h3>
           <p>
-            "Engineering comprehensive digital solutions that transform complex business requirements into elegant, scalable, high-performance web applications. My approach seamlessly integrates frontend innovation with backend reliability, delivering scalable and impactful technological ecosystems".
+            Building robust, scalable server-side solutions with Node.js,
+            Express.js, and database management. Implementing secure
+            authentication systems and optimized API architectures for
+            enterprise-level applications.
           </p>
-          <a href="#" class="btn">Read More</a>
+          <a href="#contact" class="btn">Get Started</a>
         </div>
 
-
-         <!-- Box-3 -->
         <div class="services-box">
-          <!-- <i class='bx bxs-paint' ></i> -->
-          <i class='bx bx-palette'></i>
-          <h3>Web Design</h3>
+          <i class="bx bx-code-curly"></i>
+          <h3>Full-Stack Solutions</h3>
           <p>
-            "Crafting intuitive, visually compelling, and user-focused web designs. My approach centers on understanding your unique goals to deliver customized solutions that elevate your digital presence by blending aesthetics with technical expertise to create stunning websites that perform seamlessly across devices".
+            End-to-end web application development from concept to deployment.
+            Seamlessly integrating frontend innovation with backend reliability
+            to deliver comprehensive digital solutions that drive business
+            growth.
           </p>
-          <a href="#" class="btn">Read More</a>
+          <a href="#contact" class="btn">Get Started</a>
         </div>
       </div>
-     </section>
+    </section>
 
     <!-- portfolio section design -->
-     <section class="portfolio" id="portfolio">
-      <h2 class="heading">Latest <span>Projects</span></h2>
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Featured <span>Projects</span></h2>
       <div class="portfolio-container">
-        <!-- Project-1 -->
-         <div class="portfolio-box">
-          <img src="./images/elite-bank.png" alt="elite-bank" />
-          <div class="portfolio-layer">
-            <h4 style="color: black">Elite Bank</h4>
-          
-            <!-- <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.".
-            </p> -->
-            <a href="https://elite-bank.vercel.app/dashboard" target="_blank"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
- <!-- Project-2 -->
         <div class="portfolio-box">
-          <img src="./images/react-jobs.png" alt="react-jobs" />
+          <img src="./images/elite-bank.png" alt="Elite Bank" />
           <div class="portfolio-layer">
-            <h4 style="color: #000; font-weight: 600;" >React Jobs</h4>
-            <!-- <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.".
-            </p> -->
-            <a href="https://react-jobs-web-app-
-mu.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-        <!-- Project-3 -->
-         <div class="portfolio-box">
-          <img src="./images/torre2.png" alt="torre" />
-          <div class="portfolio-layer">
-            <h4 style="color: black">Torre Connect Hub</h4>
-            <!-- <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.".
-            </p> -->
-            <a href="https://torre-connects-hub-i9jl.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-         <!-- Project-4 -->
-         <div class="portfolio-box">
-          <img src="./images/chris-courses.png" alt="chris-courses" />
-          <div class="portfolio-layer">
-            <h4 style="color: black">Chris-Courses</h4>
-            <p style="color: #000">
-              (Animated)
+            <h4>Elite Bank</h4>
+            <p class="tech-stack">
+              React.js • TypeScript • Node.js • MongoDB • JWT
             </p>
-            <!-- <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.".
-            </p> -->
-            <a href="https://course-website-pi.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-
-          <!-- Project-5 -->
-          <div class="portfolio-box">
-          <img src="./images/smart-se.png" alt="smart-se" />
-          <div class="portfolio-layer">
-            <h4 style="color: black">Smart-SE</h4>
-            <p style="color: #000; font-weight: 600;">
-              (Animated)
+            <p>
+              Secure full-stack banking application with real-time transfers,
+              JWT authentication, and optimized database performance serving
+              100+ users with zero security incidents.
             </p>
-            <!-- <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.".
-            </p> -->
-            <a href="https://smart-se.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+            <div class="project-links">
+              <a
+                href="https://github.com/Nebenmor/elite-bank"
+                target="_blank"
+                title="View Code"
+              >
+                <i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://elite-bank.vercel.app/dashboard"
+                target="_blank"
+                title="Live Demo"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-       
-      
-        <!-- Project-6 -->
+        <div class="portfolio-box">
+          <img src="./images/react-jobs.png" alt="React Jobs" />
+          <div class="portfolio-layer">
+            <h4>React Jobs WebApp</h4>
+            <p class="tech-stack">
+              React.js • Tailwind CSS • JSON Server • REST API
+            </p>
+            <p>
+              Comprehensive job portal with full CRUD operations supporting 200+
+              listings. Features advanced search, filtering, and mobile-first
+              responsive design achieving 95+ Lighthouse performance score.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/Nebenmor/react-jobs-webApp"
+                target="_blank"
+                title="View Code"
+              >
+                <i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://react-jobs-web-app-mu.vercel.app/"
+                target="_blank"
+                title="Live Demo"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/torre2.png" alt="Torre Connect Hub" />
+          <div class="portfolio-layer">
+            <h4>Torre Connect Hub</h4>
+            <p class="tech-stack">HTML5 • CSS3 • JavaScript • Animations</p>
+            <p>
+              Interactive animated landing page showcasing modern web design
+              principles with smooth transitions and engaging user experience
+              across all devices.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" title="View Code">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://torre-connects-hub-i9jl.vercel.app/"
+                target="_blank"
+                title="Live Demo"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/chris-courses.png" alt="Chris Courses" />
+          <div class="portfolio-layer">
+            <h4>Chris-Courses</h4>
+            <p class="tech-stack">HTML5 • CSS3 • JavaScript • Animations</p>
+            <p>
+              Modern animated course website with interactive elements, smooth
+              scrolling, and responsive design optimized for learning platform
+              experience.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" title="View Code">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://course-website-pi.vercel.app/"
+                target="_blank"
+                title="Live Demo"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/smart-se.png" alt="Smart SE" />
+          <div class="portfolio-layer">
+            <h4>Smart-SE</h4>
+            <p class="tech-stack">HTML5 • CSS3 • JavaScript • Animations</p>
+            <p>
+              Sophisticated animated business website featuring modern design
+              patterns, interactive components, and seamless user navigation
+              experience.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" title="View Code">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://smart-se.vercel.app/"
+                target="_blank"
+                title="Live Demo"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div class="portfolio-box">
           <img src="./images/Weather_App.png" alt="Weather App" />
           <div class="portfolio-layer">
             <h4>Weather App</h4>
-            <!-- <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.".
-            </p> -->
-            <a href="https://tornad.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+            <p class="tech-stack">
+              JavaScript • Weather API • CSS3 • Responsive Design
+            </p>
+            <p>
+              Real-time weather application with location-based forecasts,
+              interactive UI, and dynamic backgrounds that change based on
+              weather conditions.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" title="View Code">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://tornad.vercel.app/"
+                target="_blank"
+                title="Live Demo"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <!-- Project-7 -->
         <div class="portfolio-box">
           <img src="./images/sound-dzign.png" alt="Sound DZign" />
           <div class="portfolio-layer">
-            <h4 style="color: #000" >Sound DZign</h4>
-            <!-- <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.".
-            </p> -->
-            <a href="https://sound-dzign-gamma.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-        <!-- Project-8 -->
-        <div class="portfolio-box">
-          <img src="./images/Manage-landing-page.png" alt="Manage landing page" />
-          <div class="portfolio-layer">
-            <h4 style="color: #000">Manage</h4>
-            <!-- <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.".
-            </p> -->
-            <a href="https://nebenmor.github.io/Manage/" target="_blank"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-        <!-- Project-9 -->
-        <div class="portfolio-box">
-          <img src="./images/Social-book.png" alt="Tic Tac Toe" />
-          <div class="portfolio-layer">
-            <h4 style="color: #000">Social Book</h4>
-            <p style="color: #000">
-              (Dark Mode Enabled)
+            <h4>Sound DZign</h4>
+            <p class="tech-stack">
+              HTML5 • CSS3 • JavaScript • Responsive Design
             </p>
-            <a href="https://social-book-chat.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+            <p>
+              Creative audio-focused website with modern design aesthetics,
+              interactive elements, and optimized performance for multimedia
+              content presentation.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" title="View Code">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://sound-dzign-gamma.vercel.app/"
+                target="_blank"
+                title="Live Demo"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img
+            src="./images/Manage-landing-page.png"
+            alt="Manage Landing Page"
+          />
+          <div class="portfolio-layer">
+            <h4>Manage</h4>
+            <p class="tech-stack">
+              HTML5 • CSS3 • JavaScript • Responsive Design
+            </p>
+            <p>
+              Professional landing page design with clean layout, call-to-action
+              optimization, and mobile-first approach for maximum conversion
+              rates.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" title="View Code">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://nebenmor.github.io/Manage/"
+                target="_blank"
+                title="Live Demo"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/Social-book.png" alt="Social Book" />
+          <div class="portfolio-layer">
+            <h4>Social Book</h4>
+            <p class="tech-stack">HTML5 • CSS3 • JavaScript • Dark Mode</p>
+            <p>
+              Social media interface with dark mode functionality, responsive
+              design, and modern UI components for an engaging user experience.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" title="View Code">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a
+                href="https://social-book-chat.vercel.app/"
+                target="_blank"
+                title="Live Demo"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-     </section>
+    </section>
 
     <!-- contact section design -->
-     <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me</span> </h2>
+    <section class="contact" id="contact">
+      <h2 class="heading">Get In <span>Touch</span></h2>
 
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Full Name" >
-          <input type="email" placeholder="Email Address" >
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Let's Work Together</h3>
+          <p>
+            Ready to bring your ideas to life? I'm available for freelance
+            projects, full-time opportunities, and collaboration. Let's discuss
+            how we can create something amazing together.
+          </p>
+
+          <div class="contact-item">
+            <i class="bx bx-envelope"></i>
+            <span>nebenmor.anthony@gmail.com</span>
+          </div>
+
+          <div class="contact-item">
+            <i class="bx bx-map"></i>
+            <span>Lagos State, Nigeria</span>
+          </div>
+
+          <div class="contact-item">
+            <i class="bx bx-phone"></i>
+            <span>Available for Remote Work</span>
+          </div>
+
+          <div class="social-media">
+            <a href="https://github.com/Nebenmor" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/anthony-nebenmor/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://www.twitter.com/AnthonyNebenmor" target="_blank"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+          </div>
         </div>
-        <div class="input-box">
-          <input type="number" placeholder="Mobile Number" >
-          <input type="text" placeholder="Email Subject" >
-        </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" ></textarea>
-        <input type="submit" value="Send Message" class="btn">        
-        
-      </form>
-     </section>
+
+        <form action="#" method="POST">
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <input
+              type="text"
+              name="subject"
+              placeholder="Project Type"
+              required
+            />
+            <input
+              type="text"
+              name="budget"
+              placeholder="Budget Range"
+              required
+            />
+          </div>
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Tell me about your project..."
+            required
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </form>
+      </div>
+    </section>
 
     <!-- footer design -->
-     <footer class="footer">
+    <footer class="footer">
       <div class="footer-text">
-        <p>Copyright &copy; <span id="date" ></span> by Anthony_Nebenmor | All Rights Reserved.</p>
+        <p>
+          Copyright &copy; <span id="current-year"></span> by Anthony Nebenmor |
+          All Rights Reserved.
+        </p>
       </div>
 
       <div class="footer-iconTop">
-        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
-     </footer>
-
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- typed js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <!-- custom js -->
-    <script src="js/script.js"></script>
+    </footer>
   </body>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="./js/script.js"></script>
 </html>
