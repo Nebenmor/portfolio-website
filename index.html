@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Portfolio | Anthony Nebenmor | Full-Stack Developer</title>
 
     <!-- box icons -->
@@ -18,7 +21,7 @@
   <body>
     <!-- header design -->
     <header>
-      <a href="#" class="logo">Portfolio</a>
+      <a href="#" class="logo">Anthony.dev</a>
       <i class="bx bx-menu" id="menu-icon"></i>
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
@@ -37,10 +40,9 @@
         <h1>Anthony Nebenmor</h1>
         <h3>And I'm a <span class="multiple-text"></span></h3>
         <p>
-          Full-Stack Developer specializing in React.js, Node.js, and scalable
-          web applications. Proven track record of improving system performance
-          by 30% and delivering high-quality solutions that drive business
-          growth. Passionate about clean code and collaborative problem-solving.
+          "Full-Stack Developer specializing in React.js and Node.js. Proven
+          track record of improving system performance and delivering scalable
+          solutions that drive business growth."
         </p>
 
         <div class="stats-container">
@@ -93,18 +95,15 @@
         <h2 class="heading">About <span>Me</span></h2>
         <h3>Full-Stack Developer</h3>
         <p>
-          I'm a passionate Full-Stack Developer with extensive experience
-          designing, developing, and deploying scalable web applications. I
-          bridge the gap between innovative frontend experiences and robust
-          backend infrastructure, delivering solutions that drive business
-          growth.
+         
+Full-Stack Developer specializing in scalable web applications. I bridge innovative frontend design with robust backend systems to drive business results.
         </p>
 
         <div class="experience-timeline">
           <h2>Professional Journey</h2>
           <div class="timeline-item">
             <div class="timeline-date">March 2025 - August 2025</div>
-            <div class="timeline-title">Full-Stack Developer</div>
+            <div class="timeline-title">Full-Stack Software Engineer</div>
             <div class="timeline-company">Xcelsz (Contract)</div>
             <div class="timeline-description">
               Built end-to-end web solutions using React, TypeScript,
@@ -114,22 +113,12 @@
           </div>
           <div class="timeline-item">
             <div class="timeline-date">November 2024 - December 2024</div>
-            <div class="timeline-title">Frontend Web Developer</div>
+            <div class="timeline-title">Frontend Software Engineer</div>
             <div class="timeline-company">Prodigy InfoTech</div>
             <div class="timeline-description">
               Developed responsive user interfaces reducing development time by
               30% through reusable React components and seamless API
               integrations.
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-date">June 2023 - November 2024</div>
-            <div class="timeline-title">Software Engineer</div>
-            <div class="timeline-company">Holberton School (ALX)</div>
-            <div class="timeline-description">
-              Designed comprehensive system monitoring and performance
-              optimization solutions while implementing modern React practices
-              and backend infrastructure.
             </div>
           </div>
         </div>
@@ -165,12 +154,7 @@
             Indexing
           </p>
         </div>
-        <div class="skill-category">
-          <h4>Development Tools & Workflow</h4>
-          <p>
-            Git, npm, Webpack, VS Code, Figma, CI/CD (Vercel, GitHub Actions)
-          </p>
-        </div>
+
         <div class="skill-category">
           <h4>Testing</h4>
           <p>Jest, Supertest, Unit Testing, Integration Testing, E2E Testing</p>
@@ -191,38 +175,44 @@
 
       <div class="services-container">
         <div class="services-box">
-          <i class="bx bx-code-alt"></i>
-          <h3>Frontend Development</h3>
-          <p>
-            Crafting dynamic, responsive, and high-performance web applications
-            using React.js, TypeScript, and modern CSS frameworks. Specializing
-            in creating engaging user experiences that exceed modern web
-            standards.
-          </p>
+          <div class="services-box-content">
+            <i class="bx bx-code-alt"></i>
+            <h3>Frontend Development</h3>
+            <p>
+              Crafting dynamic, responsive, and high-performance web
+              applications using React.js, TypeScript, and modern CSS
+              frameworks. Specializing in creating engaging user experiences
+              that exceed modern web standards.
+            </p>
+          </div>
           <a href="#contact" class="btn">Get Started</a>
         </div>
 
         <div class="services-box">
-          <i class="bx bx-server"></i>
-          <h3>Backend Development</h3>
-          <p>
-            Building robust, scalable server-side solutions with Node.js,
-            Express.js, and database management. Implementing secure
-            authentication systems and optimized API architectures for
-            enterprise-level applications.
-          </p>
+          <div class="services-box-content">
+            <i class="bx bx-server"></i>
+            <h3>Backend Development</h3>
+            <p>
+              Building robust, scalable server-side solutions with Node.js,
+              Express.js, and database management. Implementing secure
+              authentication systems and optimized API architectures for
+              enterprise-level applications.
+            </p>
+          </div>
           <a href="#contact" class="btn">Get Started</a>
         </div>
 
         <div class="services-box">
-          <i class="bx bx-code-curly"></i>
-          <h3>Full-Stack Solutions</h3>
-          <p>
-            End-to-end web application development from concept to deployment.
-            Seamlessly integrating frontend innovation with backend reliability
-            to deliver comprehensive digital solutions that drive business
-            growth.
-          </p>
+          <div class="services-box-content">
+            <i class="bx bx-code-curly"></i>
+            <h3>Full-Stack Solutions</h3>
+            <p>
+              End-to-end web application development from concept to deployment.
+              Seamlessly integrating frontend innovation with backend
+              reliability to deliver comprehensive digital solutions that drive
+              business growth.
+            </p>
+          </div>
           <a href="#contact" class="btn">Get Started</a>
         </div>
       </div>
@@ -230,7 +220,7 @@
 
     <!-- portfolio section design -->
     <section class="portfolio" id="portfolio">
-      <h2 class="heading">Featured <span>Projects</span></h2>
+      <h2 class="heading">Latest <span>Projects</span></h2>
       <div class="portfolio-container">
         <div class="portfolio-box">
           <img src="./images/elite-bank.png" alt="Elite Bank" />
@@ -396,85 +386,7 @@
           </div>
         </div>
 
-        <div class="portfolio-box">
-          <img src="./images/sound-dzign.png" alt="Sound DZign" />
-          <div class="portfolio-layer">
-            <h4>Sound DZign</h4>
-            <p class="tech-stack">
-              HTML5 • CSS3 • JavaScript • Responsive Design
-            </p>
-            <p>
-              Creative audio-focused website with modern design aesthetics,
-              interactive elements, and optimized performance for multimedia
-              content presentation.
-            </p>
-            <div class="project-links">
-              <a href="#" target="_blank" title="View Code">
-                <i class="bx bxl-github"></i>
-              </a>
-              <a
-                href="https://sound-dzign-gamma.vercel.app/"
-                target="_blank"
-                title="Live Demo"
-              >
-                <i class="bx bx-link-external"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img
-            src="./images/Manage-landing-page.png"
-            alt="Manage Landing Page"
-          />
-          <div class="portfolio-layer">
-            <h4>Manage</h4>
-            <p class="tech-stack">
-              HTML5 • CSS3 • JavaScript • Responsive Design
-            </p>
-            <p>
-              Professional landing page design with clean layout, call-to-action
-              optimization, and mobile-first approach for maximum conversion
-              rates.
-            </p>
-            <div class="project-links">
-              <a href="#" target="_blank" title="View Code">
-                <i class="bx bxl-github"></i>
-              </a>
-              <a
-                href="https://nebenmor.github.io/Manage/"
-                target="_blank"
-                title="Live Demo"
-              >
-                <i class="bx bx-link-external"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="./images/Social-book.png" alt="Social Book" />
-          <div class="portfolio-layer">
-            <h4>Social Book</h4>
-            <p class="tech-stack">HTML5 • CSS3 • JavaScript • Dark Mode</p>
-            <p>
-              Social media interface with dark mode functionality, responsive
-              design, and modern UI components for an engaging user experience.
-            </p>
-            <div class="project-links">
-              <a href="#" target="_blank" title="View Code">
-                <i class="bx bxl-github"></i>
-              </a>
-              <a
-                href="https://social-book-chat.vercel.app/"
-                target="_blank"
-                title="Live Demo"
-              >
-                <i class="bx bx-link-external"></i>
-              </a>
-            </div>
-          </div>
+    
         </div>
       </div>
     </section>
