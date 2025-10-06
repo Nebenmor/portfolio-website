@@ -115,37 +115,6 @@
         });
       });
 
-      // Enhanced form submission handling
-      const contactForm = document.querySelector('.contact form');
-      if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-          e.preventDefault();
-          
-          // Get form data
-          const formData = new FormData(this);
-          const formEntries = Object.fromEntries(formData);
-          
-          // Simple validation
-          if (Object.values(formEntries).some(value => value.trim() === '')) {
-            alert('Please fill in all fields.');
-            return;
-          }
-          
-          // Simulate form submission
-          const submitBtn = this.querySelector('.btn');
-          const originalText = submitBtn.value;
-          submitBtn.value = 'Sending...';
-          submitBtn.disabled = true;
-          
-          setTimeout(() => {
-            alert('Thank you for your message! I\'ll get back to you soon.');
-            this.reset();
-            submitBtn.value = originalText;
-            submitBtn.disabled = false;
-          }, 1500);
-        });
-      }
-
       // Add fade-in animation class to elements as they come into view
       const observerOptions = {
         threshold: 0.1,
