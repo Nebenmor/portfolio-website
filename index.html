@@ -455,84 +455,89 @@ I love building things for the web. From crafting intuitive user interfaces to d
       </div>
     </section>
 
-    <!-- contact section design -->
-    <section class="contact" id="contact">
-      <h2 class="heading">Get In <span>Touch</span></h2>
+  <!-- contact section design -->
+<section class="contact" id="contact">
+  <h2 class="heading">Get In <span>Touch</span></h2>
 
-      <div class="contact-container">
-        <div class="contact-info">
-          <h3>Let's Work Together</h3>
-          <p>
-            Ready to bring your ideas to life? I'm available for freelance
-            projects, full-time opportunities, and collaboration. Let's discuss
-            how we can create something amazing together.
-          </p>
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3>Let's Work Together</h3>
+      <p>
+        Ready to bring your ideas to life? I'm available for freelance
+        projects, full-time opportunities, and collaboration. Let's discuss
+        how we can create something amazing together.
+      </p>
 
-          <div class="contact-item">
-            <i class="bx bx-envelope"></i>
-            <span>nebenmor.anthony@gmail.com</span>
-          </div>
-
-          <div class="contact-item">
-            <i class="bx bx-map"></i>
-            <span>Lagos State, Nigeria</span>
-          </div>
-
-          <div class="contact-item">
-            <i class="bx bx-phone"></i>
-            <span>Available for Remote Work</span>
-          </div>
-
-          <div class="social-media">
-            <a href="https://github.com/Nebenmor" target="_blank"
-              ><i class="bx bxl-github"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/anthony-nebenmor/"
-              target="_blank"
-              ><i class="bx bxl-linkedin"></i
-            ></a>
-            <a href="https://www.twitter.com/AnthonyNebenmor" target="_blank"
-              ><i class="bx bxl-twitter"></i
-            ></a>
-          </div>
-        </div>
-
-        <form action="#" method="POST">
-          <div class="input-box">
-            <input type="text" name="name" placeholder="Full Name" required />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email Address"
-              required
-            />
-          </div>
-          <div class="input-box">
-            <input
-              type="text"
-              name="subject"
-              placeholder="Project Type"
-              required
-            />
-            <input
-              type="text"
-              name="budget"
-              placeholder="Budget Range"
-              required
-            />
-          </div>
-          <textarea
-            name="message"
-            cols="30"
-            rows="10"
-            placeholder="Tell me about your project..."
-            required
-          ></textarea>
-          <input type="submit" value="Send Message" class="btn" />
-        </form>
+      <div class="contact-item">
+        <i class="bx bx-envelope"></i>
+        <span>nebenmor.anthony@gmail.com</span>
       </div>
-    </section>
+
+      <div class="contact-item">
+        <i class="bx bx-map"></i>
+        <span>Lagos State, Nigeria</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="bx bx-phone"></i>
+        <span>Available for Remote Work</span>
+      </div>
+
+      <div class="social-media">
+        <a href="https://github.com/Nebenmor" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/anthony-nebenmor/"
+          target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://www.twitter.com/AnthonyNebenmor" target="_blank"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- Updated form with Formspree -->
+    <form action="https://formspree.io/f/manpbabg" method="POST">
+      <!-- Hidden fields for better email organization -->
+      <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission" />
+      <input type="hidden" name="_next" value="https://your-website.com/#contact" />
+      
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          required
+        />
+      </div>
+      <div class="input-box">
+        <input
+          type="text"
+          name="subject"
+          placeholder="Project Type"
+          required
+        />
+        <input
+          type="text"
+          name="budget"
+          placeholder="Budget Range"
+          required
+        />
+      </div>
+      <textarea
+        name="message"
+        cols="30"
+        rows="10"
+        placeholder="Tell me about your project..."
+        required
+      ></textarea>
+      <input type="submit" value="Send Message" class="btn" />
+    </form>
+  </div>
+</section>
 
     <!-- footer design -->
     <footer class="footer">
