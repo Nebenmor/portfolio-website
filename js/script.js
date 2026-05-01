@@ -82,7 +82,7 @@ ScrollReveal().reveal(".home-content p, .about-content, .skills-grid .skill-cate
 
 // Enhanced typed.js animation
 const typed = new Typed(".multiple-text", {
-  strings: ["Full-Stack Dev", "React Specialist", "Python Dev", "Problem Solver"],
+  strings: ["Full-Stack Dev", "Mobile Developer", "React Specialist", "Python Dev", "Problem Solver"],
   typeSpeed: 80,
   backSpeed: 60,
   backDelay: 1200,
