@@ -155,14 +155,14 @@
         <div class="experience-timeline">
           <h2>Professional Journey</h2>
           <div class="timeline-item">
-            <div class="timeline-date">October 2025 - Present</div>
+            <div class="timeline-date">October 2025 - June 2026</div>
             <div class="timeline-title">Full-Stack & Mobile Developer</div>
             <div class="timeline-company">Smash Technology</div>
             <div class="timeline-description">
-              Architecting 80% of backend infrastructure for enterprise property
-              management platform using FastAPI and PostgreSQL. Building
+              Architected 80% of backend infrastructure for enterprise property
+              management platform using FastAPI and PostgreSQL. Built
               production-grade React Native mobile apps with 1,500+ lines of
-              code and 22+ reusable components. Developing responsive React
+              code and 22+ reusable components. Developed responsive React
               frontends achieving 95+ Lighthouse scores with sub-200ms API
               response times.
             </div>
@@ -202,9 +202,8 @@
         <div class="skill-category">
           <h4>Frontend Development</h4>
           <p>
-            React.js (v18, v19), Next.js, Tailwind CSS, Material UI, Framer
-            Motion, Recharts, React Hook Form, Zod, Responsive Design,
-            Mobile-First
+            React.js (v18, v19), Next.js, TanStack Query, Tailwind CSS, Material
+            UI, Recharts, React Hook Form, Zod, Responsive Design, Mobile-First
           </p>
         </div>
         <div class="skill-category">
@@ -219,7 +218,8 @@
           <h4>Backend Development</h4>
           <p>
             FastAPI, Node.js, Express.js, RESTful APIs, WebSocket (Socket.IO),
-            JWT Authentication, HMAC Webhooks, Idempotency, Alembic Migrations
+            JWT Authentication, HMAC Webhooks, Idempotency, Alembic Migrations,
+            Celery, Redis
           </p>
         </div>
         <div class="skill-category">
@@ -325,6 +325,33 @@
     <section class="portfolio" id="portfolio">
       <h2 class="heading">Featured <span>Projects</span></h2>
       <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./images/flowspace.png" alt="Flowspace" />
+          <div class="portfolio-layer">
+            <h4 style="color: black">Flowspace</h4>
+            <p class="tech-stack" style="color: black">
+              FastAPI • PostgreSQL • Redis • Celery • WebSockets • React 19 •
+              TanStack Query • Tailwind CSS • Docker
+            </p>
+            <p style="color: black">
+              Production-grade full-stack multi-tenant SaaS platform (Jira-like)
+              with real-time WebSocket sync, Celery background workers, Redis
+              caching, resilient webhook delivery with exponential backoff
+              retry, PostgreSQL full-text search, and a React dashboard with
+              analytics.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/Nebenmor/flowspace"
+                target="_blank"
+                title="View Code"
+              >
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div class="portfolio-box">
           <img src="./images/payroute.png" alt="PayRoute" />
           <div class="portfolio-layer">
